@@ -1,0 +1,24 @@
+https://github.com/digitalcollegebr/fullstack-avaliacoes/tree/main/Modulo_I/II-HTML_e_CSS/imagens
+
+
+git init
+git add (index.html) 
+git status
+git commit -m "mensagem para falar sobre commit"
+git push origin (main ou nome do novo repositorio)
+[CRIA UMA BRANCH E MUDA PARA ELA]
+git checkout -b "nome da branch"
+
+[ALTERAÇÃO NO CODIGO]
+git add . (o ponto adiciona tudo)
+git commit -m "mensagem sobre novo commit"
+git push origin (nome da branch)
+
+[SÓ MUDA DE BRANCH]
+git checkout "nome da branch"
+[LISTA AS BRANCHES]
+git branch
+[ATUALIZAR A MAIN LOCAL, MOVER PARA A BRANCH MAIN E DAR UM PULL]
+git pull origin main
+
+[QUEM JA FEZ O ADD REMOTE ORIGIN NÃO PRECISA FAZER DUAS VEZES]
