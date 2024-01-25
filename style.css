@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&display=swap');
+
+*{
+    margin: none;
+    font-size: none;
+    background-color: none;
+
+}
+header{
+    width: 90vw;
+    height: 1000px;
+    display: block;
+}
+.plano_de_fundo{
+    height: 1000px;
+    width: 500px;
+    background-image: url(imagem/layered-waves-haikei.png);
+    background-repeat: no-repeat;
+}
+.logo-shopify_{
+}
+.title_h1{
+    justify-content: center;
+}
+h1{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: #008060;
+}
+h2{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    background-color: #008060;
+}
+.email-{
+justify-content: center;    display: flex;
+    gap: 15px;
+}
+.title_h3{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    background-color: #008060;
+}
