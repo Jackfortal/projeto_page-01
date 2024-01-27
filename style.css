@@ -1,55 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+* {
+	margin: none;
+	padding: none;
+	border: none;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
 header{
     text-align: center;
     width: 100vw;
@@ -78,14 +34,16 @@ header{
     gap: 15px;
 }
 #email{
-    height: 5vh;
+    height: 6vh;
     width: 17vw;
     border: none;
     border-radius: 3px;
-    font-size: 13px;
+    font-size: 12px;
+    color: #888;
+    font-weight: bold;
 }
 .button_start{
-    height: 5vb;
+    height: 6vh;
     width: 9vw;
     color: white;
     background-color: #212326;
@@ -123,8 +81,39 @@ h3{
     margin-top: 20px;
 }
 .e-commerce{
-    width: 50vw;
+    justify-content: center;
 }
 .e_commerce{
-    background-image: url(imagem/Ecommerce.png);
+    width: 28vw;
+}
+main {
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+}
+.main-container {
+    justify-content: center;
+    width: 50vw;
+    height: 200px;
+}
+.grid-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.material-symbols-outlined {
+    color: #008060;
+    scale: 1.5;
+}
+.customizable-menu, .all-menu, .safe-menu {
+    font-family: "Manrope", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px;
+}
+p {
+    font-family: "Manrope", sans-serif;
+    font-size: 10px;
+    color: #888;
+
 }
