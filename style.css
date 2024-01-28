@@ -2,26 +2,38 @@
 
 
 * {
-	margin: none;
-	padding: none;
-	border: none;
+    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+    width: 100vw;
+    height: 400vh;
 }
 header{
     text-align: center;
     width: 100vw;
-    height: 100vh;
+    height: 85vh;
+    /* border: 5px solid brown; */
+}
+.background-wave {
+    width: 100vw;
+    height: 84vh;
+    background-image: url(imagem/landing-page-01-2.png);
+    background-size: cover;
+    border: 5px solid rgb(47, 0, 255);
+    padding:20px 20px 20px 20px; 
+    overflow: hidden;
+    flex-direction: row;
 }
 .header-elements{
     justify-content: center;
     align-items: center;
-    display: block;
-}
-.background-wave{
-    align-items: flex-start;
-    width: 100vw;
-    height: 100%;
-    background-image: url(imagem/landing-page-01-2.png);
-    background-size: 100%;
+
+    border: 5px solid rgb(251, 255, 0);
+    border-radius: 1px;
+    width:95vw;
+    overflow: hidden;
 }
 .logo_shopift{
     margin-top: 60px;
@@ -42,6 +54,10 @@ header{
     color: #888;
     font-weight: bold;
 }
+#email:hover {
+    background-color: darkseagreen;
+    color: #000;
+}
 .button_start{
     height: 6vh;
     width: 9vw;
@@ -50,6 +66,9 @@ header{
     border: none;
     border-radius: 3px;
     font-weight: 600;
+}
+.button_start:hover {
+    background-color: #888;
 }
 h1{
     font-size: 35px;
@@ -90,11 +109,17 @@ main {
     width: 100vw;
     justify-content: center;
     display: flex;
+    /* border: 5px solid red; */
 }
 .main-container {
     justify-content: center;
     width: 50vw;
-    height: 200px;
+    height: 180px;
+
+    /* border: 5px solid rgb(60, 255, 0); */
+    padding:20px 20px 20px 20px; 
+    border-radius: 1px;
+    overflow: hidden;
 }
 .grid-container {
     display: flex;
@@ -111,9 +136,68 @@ main {
     font-weight: bold;
     padding: 10px;
 }
+.menu_href {
+    text-decoration: none;
+    color: #000;
+}
 p {
     font-family: "Manrope", sans-serif;
     font-size: 10px;
     color: #888;
+    line-height: 15px;
+}
+footer {
+    display: block;
+    width: 100vw;
+}
+.patrocinadores-list {
+    height: 150px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.patro_list {
+    border-block-start: 2px solid #8888884d;
+    border-block-end: 2px solid #8888884d;
+    width: 60vw;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+    /* border: 5px solid purple; */
+    overflow: hidden;
+}
+.logo_cees {
+    max-width: 8vw;
+    max-height: 8vh;
+}
+.logo_nalata {
+    max-width: 10vw;
+    max-height: 10vh;
+}
+.logo_kirin {
+    max-width: 10vw;
+    max-height: 10vh;
+}
+.logo_tokyo {
+    max-width: 11vw;
+    max-height: 11vh;
+}
+.logo_meso {
+    max-width: 6vw;
+    max-height: 6vh;
+}
+.logo_coco {
+    max-width: 14vw;
+    max-height: 14vh;
+}
+.logo_brooklyn {
+    max-width: 10vw;
+    max-height: 10vh;
+}
+.logo_adore {
+    max-width: 10vw;
+    max-height: 10vh;
 }
