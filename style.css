@@ -186,8 +186,8 @@ footer {
     max-height: 11vh;
 }
 .logo_meso {
-    max-width: 6vw;
-    max-height: 6vh;
+    max-width: 5vw;
+    max-height: 5vh;
 }
 .logo_coco {
     max-width: 14vw;
@@ -198,6 +198,35 @@ footer {
     max-height: 10vh;
 }
 .logo_adore {
-    max-width: 10vw;
-    max-height: 10vh;
+    max-width: 6vw;
+    max-height: 6vh;
+}
+.area_faqs {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-faqs {
+    width: 80vw;
+    height: 50vh;
+    background-color: #faf9f8;
+}
+.container-faqs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-terms {
+    width: 80vw;
+    background-color: #e77502;
+}
+.terms_policy {
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 30px;
 }
