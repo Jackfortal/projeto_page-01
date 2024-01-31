@@ -14,7 +14,6 @@ header{
     text-align: center;
     width: 100vw;
     height: 85vh;
-    /* border: 5px solid brown; */
 }
 .background-wave {
     width: 100vw;
@@ -104,14 +103,11 @@ main {
     width: 100vw;
     justify-content: center;
     display: flex;
-    /* border: 5px solid red; */
 }
 .main-container {
     justify-content: center;
     width: 50vw;
     height: 180px;
-
-    /* border: 5px solid rgb(60, 255, 0); */
     padding:20px 20px 20px 20px; 
     border-radius: 1px;
     overflow: hidden;
@@ -159,8 +155,6 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    /* border: 5px solid purple; */
     overflow: hidden;
 }
 .logo_cees {
