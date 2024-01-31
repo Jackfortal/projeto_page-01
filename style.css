@@ -28,7 +28,6 @@ header{
 .header-elements{
     justify-content: center;
     align-items: center;
-
     border-radius: 1px;
     width:95vw;
     overflow: hidden;
@@ -71,8 +70,6 @@ header{
 h1{
     font-size: 35px;
     color: white;
-/*  // <uniquifier>: Use a uniquifier for the class name
-    // <weight>: Use a value from 200 to 800 */
     font-family: "Manrope", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
